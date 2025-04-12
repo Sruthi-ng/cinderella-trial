@@ -1,3 +1,4 @@
 pandas
 requests
-
+flake8
+beautifulsoup4
