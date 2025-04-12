@@ -22,7 +22,7 @@ jobs:
       fail-fast: false # Don't cancel all jobs if one fails
       matrix:
         os: [ubuntu-latest] # Start with ubuntu-latest; add windows-latest, macos-latest if needed
-        python-version: ["3.9", "3.10", "3.11", "3.12"] # Specify desired Python versions
+        python-version: ["3.10", "3.11"] # Specify desired Python versions
 
     steps:
       # 1. Check out the repository code

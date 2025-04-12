@@ -1,4 +1,6 @@
 pandas
 requests
 flake8
-beautifulsoup4
+black
+pytest
+pytest-cov
